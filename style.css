@@ -2,9 +2,151 @@
 
 /* --- YOUR CODE STARTS HERE --- */
 
+.page-wrapper {
+  outline: 1px solid #cfcfcf;
+  width: 359px;
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-weight: 400;
+  --font-color: #3d3d3d;
+  --icon-size: 24px;
+  --icon-color-light: #666666;
+  --icon-color-dark: #3d3d3d;
+}
+
+.page-wrapper img {
+  display: block;
+}
 
 
+/* TOP NAVIGATION BAR */
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #f9f9f9;
+  border-bottom: 2px solid rgba(229, 229, 229, 1);
+  color: var(--font-color);
+}
+
+.main-title {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.top-nav .fa-angle-left {
+  font-size: 32px;
+}
+
+.top-nav .fa-repeat {
+  font-size: var(--icon-size);
+}
 
 
+/* USER INFO HEADER */
+
+.user-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 10px;
+  color: var(--font-color);
+}
+
+.user-img {
+  background-color: #a5ce58;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  color: white;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  line-height: 8px;
+}
+
+.user-header .fa-ellipsis-h {
+  margin-left: auto;
+}
+
+.user-info {
+  margin: 0 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.user-info div {
+  font-size: 12px;
+}
+
+.user-info .fa {
+  font-size: 14px;
+  margin: 0 0 0 3px;
+}
+
+.user-name {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+
+/* ACTION BAR */
+
+.action-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.action-bar .fa {
+  font-size: var(--icon-size);
+  color: var(--icon-color-light);
+  margin: 0 15px 0 0;
+}
+
+.action-bar .fa:last-child {
+  margin: 0 0 0 auto;
+}
+
+
+/* PICTURE DESCRIPTION */
+
+.pic-description {
+  padding: 0 15px;
+  text-align: left;
+}
+
+.likes-counter {
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--font-color);
+}
+
+.pic-description p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: var(--font-color);
+}
+
+.mention-someone {
+  color: #2a54a8;
+}
+
+/* BOTTOM NAVIGATION */
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+  color: var(--icon-color-light);
+}
+
+.bottom-nav .fa {
+  font-size: var(--icon-size);
+}
 
 /* --- YOUR CODE ENDS HERE --- */
